@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0251/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0251/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上三皇寶齋神仙上錄經
+  date: '2015-08-29 00:55:01.954789'
+  source:
+    repository: kanripo
+    path: KR5c0251
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0251_000-HFL.yaml, hash: 'sha256:1636e8793c7326aae6f5e4ae00398a788e0cdeecd2625fab7d19feab11c6e7e9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0251_000-HFL.markers.yaml, hash: 'sha256:6e0c8f126b262f9be25ab9009dd638955d3fc895dcfcb46d3fb40d75a5503a85'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0251_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1601
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4d3b2c1fb8199003b9a90f6e5227cf4d4341589469a0d999b6f25ff724d84f02
